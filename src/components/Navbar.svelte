@@ -42,8 +42,7 @@
 
         mediaListener.addListener(mediaQueryHandler);
         
-        let menuItems = [];
-        menuItems = document.querySelectorAll('.navbar-list li a');
+        let menuItems = document.querySelectorAll('.navbar-list li a');
 
         let i = 0;
         for (i = 0; i <  menuItems.length; i++) {
