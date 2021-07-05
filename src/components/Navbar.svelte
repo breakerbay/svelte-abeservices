@@ -106,25 +106,6 @@
         transform-origin: center;
     }
 
-    .mobile-icon:before,
-    .middle-line {
-        top: 0;
-    }
-
-    .mobile-icon:after,
-    .middle-line {
-        bottom: 0;
-    }
-
-    .mobile-icon:before {
-        width: 66%;
-    }
-
-    .mobile-icon:after {
-        width: 33%;
-    }
-
-
     .middle-line {
         margin: auto;
     }
