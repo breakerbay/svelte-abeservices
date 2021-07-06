@@ -18,9 +18,9 @@
             management of the compliance data via an Internet connection to a remote computer
             database.</p>
         <ul>
-            <li><a href="CDMS_how_it_works/how.html">More about the CDMS and how it works</a></li>
-            <li><a href="contractors/contractors.html">More about the CDMS for Contractors and Subcontractors</a></li>
-            <li><a href="clients/clients.html">More about the CDMS for Clients, Superintendents and others engaging and
+            <li><a href="#/how">More about the CDMS and how it works</a></li>
+            <li><a href="#/contractors">More about the CDMS for Contractors and Subcontractors</a></li>
+            <li><a href="#/clients">More about the CDMS for Clients, Superintendents and others engaging and
                 monitoring contractors.</a></li>
         </ul>
     </div>
