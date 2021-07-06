@@ -9,6 +9,8 @@
     // List of navigation items
     const navItems = [
         { label: "Home", href: "#" },
+        { label: "About Us", href: "#/about" },
+        { label: "Acknowledgements", href: "#/acknowledgements" },
         { label: "Cards", href: "#/cards" },
         { label: "Projects", href: "#/projects" },
         { label: "Project", href: "#/projects/1" },
@@ -17,8 +19,6 @@
         { label: "Followup Actions", href: "#/followup-actions" },
         { label: "Static Images", href: "#/static-images" },
         { label: "Images", href: "#/images" },
-        { label: "ToDos", href: "#/todos" },
-        { label: "Sign Out", href: "#" },
         { label: "Sign In", href: "#/login" }
     ];
 
