@@ -21,8 +21,7 @@
             <li><a href="CDMS_how_it_works/how.html">More about the CDMS and how it works</a></li>
             <li><a href="contractors/contractors.html">More about the CDMS for Contractors and Subcontractors</a></li>
             <li><a href="clients/clients.html">More about the CDMS for Clients, Superintendents and others engaging and
-                monitoring
-                contractors.</a></li>
+                monitoring contractors.</a></li>
         </ul>
     </div>
     <!--
