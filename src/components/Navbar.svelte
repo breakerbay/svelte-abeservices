@@ -71,7 +71,7 @@
     nav {
         /*background-color: rgba(0, 0, 0, 0.8);*/
         background-color: #2780e3;
-        font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+	    font-family: Arial, Helvetica, sans-serif;
         height: 45px;
     }
 
