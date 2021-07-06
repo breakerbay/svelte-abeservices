@@ -7,7 +7,7 @@
     <CollapsibleCard>
         <h2 slot='header' class='header'>Header 1</h2>
         <div slot='body' class='body'>
-            <img src='/static/images/followup-actions/action-image.png' alt='First card'/>
+            <img src='/static/images/studio/20190531/20190531_144609.jpg' alt='First card'/>
             <div class='text'>
                 <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro quia aperiam consequatur voluptas nihil beatae qui nisi? Commodi incidunt, architecto, est id fugit vitae placeat fugiat veritatis ea minus voluptatibus? </p>
             </div>
@@ -17,7 +17,7 @@
     <CollapsibleCard>
         <h2 slot='header' class='header'>Header 2</h2>
         <div slot='body' class='body'>
-            <img src='/static/images/followup-actions/brogo-king-parrot.png' alt='First card'/>
+            <img src='/static/images/studio/20190531/20190531_144629.jpg' alt='Second card'/>
             <div class='text'>
                 <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro quia aperiam consequatur voluptas nihil beatae qui nisi? Commodi incidunt, architecto, est id fugit vitae placeat fugiat veritatis ea minus voluptatibus? </p>
                 <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro quia aperiam consequatur voluptas nihil beatae qui nisi? Commodi incidunt, architecto, est id fugit vitae placeat fugiat veritatis ea minus voluptatibus? </p>
@@ -28,7 +28,7 @@
     <CollapsibleCard>
         <h2 slot='header' class='header'>Header 3</h2>
         <div slot='body' class='body'>
-            <img src='/static/images/followup-actions/harbour-entrance.png' alt='First card'/>
+            <img src='/static/images/studio/20190531/20190531_144706.jpg' alt='Third card'/>
             <div class='text'>
                 <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro quia aperiam consequatur voluptas nihil beatae qui nisi? Commodi incidunt, architecto, est id fugit vitae placeat fugiat veritatis ea minus voluptatibus? </p>
                 <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro quia aperiam consequatur voluptas nihil beatae qui nisi? Commodi incidunt, architecto, est id fugit vitae placeat fugiat veritatis ea minus voluptatibus? </p>
