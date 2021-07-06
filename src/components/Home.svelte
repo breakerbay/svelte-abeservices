@@ -1,27 +1,49 @@
 <script>
-	import { ChevronLeftIcon, ChevronRightIcon } from 'svelte-feather-icons';
+    // import { ChevronLeftIcon, ChevronRightIcon } from 'svelte-feather-icons';
 </script>
 
 <svelte:head>
-  <title>Construction Assurance Checker</title>
+    <title>ABE Services</title>
 </svelte:head>
 
-<h1>Construction Assurance Checker</h1>
-<p>
-    Construction Assurance Checker uses svlete-spa-router for routing.<br/>
-    Visit the <a href="https://github.com/ItalyPaleAle/svelte-spa-router">documentation for the router</a> to learn more.
-</p>
-<p>
-    <a href="#/lorem/2">Lorem ipsum</a>
-</p>
+<blockquote>
+    <p>ABE Services is the developer and provider of the: </p>
+    <h1 align="center">CDMS</h1>
+    <h2 align="center">Compliance Data Management System</h2>
+    <p align="center">for the building,construction and related industries</p>
+
+    <div>
+        <p align="center">The CDMS enables the checking
+            of work on site using hand held devices (i.e. Palm Pilots) and the efficient
+            management of the compliance data via an Internet connection to a remote computer
+            database.</p>
+        <ul>
+            <li><a href="CDMS_how_it_works/how.html">More about the CDMS and how it works</a></li>
+            <li><a href="contractors/contractors.html">More about the CDMS for Contractors and Subcontractors</a></li>
+            <li><a href="clients/clients.html">More about the CDMS for Clients, Superintendents and others engaging and
+                monitoring
+                contractors.</a></li>
+        </ul>
+    </div>
+    <!--
+      <p align="center"><font face="Arial, Helvetica, sans-serif" size="2"><strong><em><a
+              href="http://brogo.net.au/checklist" target="_blank">TO
+          SIGN UP ON-LINE FOR THE CDMS</a></em></strong></font></p>
+          -->
+</blockquote>
+<div align="center">
+    <blockquote>
+        <p>The CDMS will commence commercial operations later this year - Details will be in &quot;News&quot;</p>
+        <p>Meanwhile trial user licences are available for the iphone app.</p>
+        <p><strong>Please contact John and Mike for details, email <a href="mailto:abeservices@outlook.com">abeservices@outlook.com</a></strong>
+        </p>
+    </blockquote>
+</div>
 
 <footer>
-	<div>Testing feather icons ... </div>
-	<span class="feather">
-		<ChevronLeftIcon size="200"/>
-		<ChevronRightIcon size="200"/>
-	</span>
+    <!--	<div>footer</div>-->
 </footer>
+
 
 <style>
 	h1 {
