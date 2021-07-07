@@ -11,7 +11,7 @@
         { label: "Home", href: "#" },
         { label: "About Us", href: "#/about" },
         { label: "Acknowledgements", href: "#/acknowledgements" },
-	{ label: "Charges", href: "#/charges" },
+	    { label: "Charges", href: "#/charges" },
         { label: "Cards", href: "#/cards" },
         { label: "Projects", href: "#/projects" },
         { label: "Project", href: "#/projects/1" },
