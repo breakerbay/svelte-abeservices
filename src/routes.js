@@ -10,6 +10,12 @@ import Charges from './cdms/footer/Charges.svelte'
 import Privacy from './cdms/footer/Privacy.svelte'
 import Terms from './cdms/footer/Terms.svelte'
 
+import ContactUs from './cdms/navbar/ContactUs.svelte'
+import Links from './cdms/navbar/Links.svelte'
+import Login from './cdms/navbar/Login.svelte'
+import News from './cdms/navbar/News.svelte'
+import Service from './cdms/navbar/Service.svelte'
+
 import CollapsibleCards from './components/CollapsibleCards.svelte'
 import Images from './components/Images.svelte'
 import StaticImages from './components/StaticImages.svelte'
