@@ -30,13 +30,13 @@
         reports of checks, etc. Such access is of course, only granted with the
         permission of the party purchasing the CDMS ITP Service.</p>
     <p align="center">
-        <a href="contact.html"><strong><em>TO PURCHASE THE CDMS ITP SERVICE CONTACT ABE Services </em></strong></a>
+        <a href="#/contact"><strong><em>TO PURCHASE THE CDMS ITP SERVICE CONTACT ABE Services </em></strong></a>
         &nbsp;</p>
 
     <div align="center">
         <blockquote><em>Please note the CDMS is currently mainly available in the ACT region.
             It is expected the CDMS will be available across Australia in 2006
-            - Details will be in the <a href="news.html"><u>News</u></a></em></blockquote>
+            - Details will be in the <a href="#/news"><u>News</u></a></em></blockquote>
     </div>
 
 </blockquote>
