@@ -14,10 +14,14 @@
         { label: "Charges", href: "#/charges" },
         { label: "Privacy", href: "#/privacy" },
         { label: "Terms", href: "#/terms" },
+        { label: "Contact Us", href: "#/contact" },
+        { label: "Links", href: "#/links" },
+        { label: "Login", href: "#/login" },
+        { label: "News", href: "#/news" },
+        { label: "Service", href: "#/service" },
         { label: "Cards", href: "#/cards" },
         { label: "Static Images", href: "#/static-images" },
-        { label: "Images", href: "#/images" },
-        { label: "Sign In", href: "#/login" }
+        { label: "Images", href: "#/images" }
     ];
 
     // Mobile menu click event handler
