@@ -12,6 +12,28 @@ body {
 	font-family: Arial, Helvetica, sans-serif;
 }
 
+footer{
+	background-color: #ccc;
+	flex-basis: 50px;
+
+	/*ie10*/
+	-ms-flex-preferred-size: 50px;
+
+	/*center align of links*/
+	display: flex;
+	align-items: center; /*vertical*/
+	justify-content: space-around; /*or space-between*/
+	/*ie10*/
+	display: -ms-flexbox;
+	-ms-flex-align: center; /*vertical*/
+	-ms-flex-line-pack: distribute; /*or justify*/
+}
+
+footer {
+	/*ie10 short content*/
+	margin-top: auto;
+}
+
 a {
 	color: rgb(0,100,200);
 	text-decoration: none;
