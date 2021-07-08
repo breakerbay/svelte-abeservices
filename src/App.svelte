@@ -10,3 +10,7 @@
 <div>
     <Router {routes} />
 </div>
+
+<footer>
+    <p>I am the footer !!!</p>
+</footer>
