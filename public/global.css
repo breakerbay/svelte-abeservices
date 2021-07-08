@@ -34,6 +34,29 @@ footer {
 	margin-top: auto;
 }
 
+.f-container{
+  height: 100vh; /* for shorter content */
+  display: flex;
+  flex-direction: column;
+    
+  /*ie10*/
+  display: -ms-flexbox;
+  -ms-flex-direction: column;
+}
+
+/* fixed header and footer with scrollable main section */
+.fixed-hf .main{
+  overflow-y: auto;
+}
+
+.main{
+  background-color: #eee;
+  flex: 1;
+  
+  /*ie10*/
+  -ms-flex: 1 1 auto; /*needs both shrink and grow*/
+}
+
 a {
 	color: rgb(0,100,200);
 	text-decoration: none;
