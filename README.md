@@ -1,2 +1,2 @@
 # svelte-abeservices
-draft abeservices web site
+Release 1 - First Netlify deployment
