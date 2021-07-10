@@ -9,16 +9,11 @@
     // List of navigation items
     const navItems = [
         { label: "Home", href: "#" },
-/*        { label: "About Us", href: "#/about" },
-        { label: "Acknowledgements", href: "#/acknowledgements" },
-        { label: "Charges", href: "#/charges" },
-        { label: "Privacy", href: "#/privacy" },
-        { label: "Terms", href: "#/terms" },*/
+        { label: "Service", href: "#/service" },
         { label: "Contact Us", href: "#/contact" },
         { label: "Links", href: "#/links" },
-        { label: "Login", href: "#/login" },
         { label: "News", href: "#/news" },
-        { label: "Service", href: "#/service" },
+        { label: "Login", href: "#/login" },
         { label: "Cards", href: "#/cards" },
         { label: "Static Images", href: "#/static-images" },
         { label: "Images", href: "#/images" }
