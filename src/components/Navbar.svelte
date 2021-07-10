@@ -9,11 +9,11 @@
     // List of navigation items
     const navItems = [
         { label: "Home", href: "#" },
-        { label: "About Us", href: "#/about" },
+/*        { label: "About Us", href: "#/about" },
         { label: "Acknowledgements", href: "#/acknowledgements" },
         { label: "Charges", href: "#/charges" },
         { label: "Privacy", href: "#/privacy" },
-        { label: "Terms", href: "#/terms" },
+        { label: "Terms", href: "#/terms" },*/
         { label: "Contact Us", href: "#/contact" },
         { label: "Links", href: "#/links" },
         { label: "Login", href: "#/login" },
