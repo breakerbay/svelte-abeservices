@@ -19,6 +19,23 @@
         { label: "Images", href: "#/images" }
     ];
 
+    const handleNavBarClick = (event) => {
+        console.log('handleNavBarClick event target', event.target);
+        showMobileMenu = false;
+
+        let element = document.querySelector("a.active");
+
+        if (element) {
+            console.log('a.active:', element);
+            element.classList.remove("active");
+        }
+        else {
+            console.log("no active links");
+        }
+
+        event.target.classList.add("active");
+    }
+
     // Mobile menu click event handler
     const handleMobileIconClick = () => (showMobileMenu = !showMobileMenu);
     
@@ -43,7 +60,8 @@
 
         let i = 0;
         for (i = 0; i <  menuItems.length; i++) {
-            menuItems[i].addEventListener('click', closeMobileMenu, false);
+            // menuItems[i].addEventListener('click', closeMobileMenu, false);
+            menuItems[i].addEventListener('click', handleNavBarClick, false);
         }
     });
 </script>
@@ -172,6 +190,9 @@
         background-color: #1967be;
     }
 
+    .active {
+        background-color: #1967be;
+    }
 
     @media only screen and (min-width: 767px) {
         .mobile-icon {
