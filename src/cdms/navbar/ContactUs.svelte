@@ -13,8 +13,5 @@
     <p>Technical support hours are normal
         ACT business hours. We aim to reply to all enquiries within one working day.<br>
         Our contact details are:</p>
-    <p>Email: <a href="mailto:abeservices@outlook.com">abeservices@outlook.com</a><br>
-        Telephone: (02) 6161 5128 <br>
-        Fax: (02) 6254 7889<br>
-        Postal Address: ABE Services, PO Box 4325, Hawker, ACT 2614, Australia</p>
+    <p>Email: <a href="mailto:abeservices@outlook.com">abeservices@outlook.com</a><br></p>
 </blockquote>

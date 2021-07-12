@@ -31,10 +31,8 @@
         or ordering e-mail newsletters.</p>
     <p>Personal information collected by ABE Services often is limited to contact details except for payment.
     </p>
-    <p>In the main, CDMS will
-        ask personal information of you (the Customer). As a customer of the CDMS
-        you may establish additional users of the service created. ABE Services Pty
-        Ltd will not ask for personal information of these users; however those details
+    <p>In the main, CDMS will ask personal information of you (the Customer). As a customer of the CDMS
+        you may establish additional users of the service created. ABE Services will not ask for personal information of these users; however those details
         (mostly email addresses) will be stored in the CDMS databases. </p>
     <p>When registering as a
         customer for the CDMS you may be required to pay for a service via a third
