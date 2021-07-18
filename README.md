@@ -35,7 +35,19 @@ https://developers.google.com/web/tools/workbox
 https://developers.google.com/web/tools/workbox/guides/common-recipes
 https://developers.google.com/web/tools/workbox/guides/advanced-recipes
 
-# WorkBox Settings
+## WorkBox Strategies
+
+[WorkBox Strategies](https://developers.google.com/web/tools/workbox/reference-docs/latest/module-workbox-strategies)
+
+| Strategy      | Description | Usage |
+| ----------- | ----------- | ----------- |
+| CacheFirst     | Title       | Text        | 
+| CacheOnly   | Text        | Text        |
+| NetworkFirst     | Title       | Text        | 
+| NetworkOnly   | Text        | Text        |
+| StaleWhileRevalidate   | Text        | Text        |
+
+## WorkBox Settings
 
 Increase Workbox's maximumFileSizeToCacheInBytes
 PWA/workbox improvements - Switch to the Workbox InjectManifest plugin
