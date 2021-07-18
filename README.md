@@ -3,6 +3,14 @@ draft abeservices web site
 
 Demo: https://abeservices.netlify.app/
 
+# PWA Settings
+
+## PWA Optimized 
+### Maskable icons
+[Maskable.app Editor](https://maskable.app/editor) used to generate maskable PWA icons from abelogo3.gif.
+
+
+
 # Service Worker
 https://developers.google.com/web/fundamentals/primers/service-workers/lifecycle
 https://jakearchibald.github.io/isserviceworkerready/resources.html
