@@ -41,11 +41,22 @@ https://developers.google.com/web/tools/workbox/guides/advanced-recipes
 
 | Strategy      | Description | Usage |
 | ----------- | ----------- | ----------- |
-| CacheFirst     | Title       | Text        | 
+| CacheFirst     | A [cache-first](https://web.dev/offline-cookbook/#cache-falling-back-to-network) strategy, useful for assets that have been revisioned, e.g. URLs like /styles/example.a8f5f1.css, since they can be cached for long periods of time.       | Text        | 
 | CacheOnly   | Text        | Text        |
 | NetworkFirst     | Title       | Text        | 
 | NetworkOnly   | Text        | Text        |
 | StaleWhileRevalidate   | Text        | Text        |
+
+## Workbox Plugins
+[Workbox Plugins](https://developers.google.com/web/tools/workbox/guides/using-plugins)
+
+
+
+| Plugin      | Description |
+| ----------- | ----------- | 
+| BackgroundSyncPlugin     | If a network request ever fails, add it to a background sync queue and retry the request when the next sync event is triggered.  | 
+| Text   | Text        | Text        |
+
 
 ## WorkBox Settings
 
