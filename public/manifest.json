@@ -1,6 +1,13 @@
 {
-  "name": "ABESERVICES",
-  "short_name": "ABESERVICES",
+  "name": "ABESERVICES CAS",
+  "short_name": "ABESERVICES CAS",
+  "start_url": "/index.html",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#3E4EB8",
+  "theme_color": "#2F3BA2",
+  "description": "ABE Services Construction Assurance",
+  "lang": "en-US",
   "icons": [
     {
       "src": "/images/icons/icon-128x128.png",
@@ -32,9 +39,5 @@
       "sizes": "512x512",
       "type": "image/png"
     }
-  ],
-  "start_url": "/index.html",
-  "display": "standalone",
-  "background_color": "#3E4EB8",
-  "theme_color": "#2F3BA2"
+  ]
 }
