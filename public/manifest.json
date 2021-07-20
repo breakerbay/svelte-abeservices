@@ -1,6 +1,6 @@
 {
-  "name": "ABESERVICES CAS",
-  "short_name": "ABESERVICES CAS",
+  "name": "ABE Services Construction Assurance",
+  "short_name": "ABE Services CAS",
   "start_url": "/index.html",
   "scope": ".",
   "display": "standalone",
