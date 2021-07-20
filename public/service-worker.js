@@ -6,6 +6,18 @@ const CACHE_NAME = 'static-cache-v1';
 // Add list of files to cache here.
 const FILES_TO_CACHE = [
   '/offline.html',
+  '/global.css',
+  '/build/bundle.css',
+  '/build/bundle.js',
+  '/static/images/studio/20190531/20190531_144609.jpg',
+  '/static/images/studio/20190531/20190531_144629.jpg',
+  '/static/images/studio/20190531/20190531_144706.jpg',
+  '/images/icons/abe-maskable_icon_x128.png',
+  '/images/icons/abe-maskable_icon_x144.png',
+  '/images/icons/abe-maskable_icon_x152.png',
+  '/images/icons/abe-maskable_icon_x192.png',
+  '/images/icons/abe-maskable_icon_x256.png',
+  '/images/icons/abe-maskable_icon_x512.png',
 ];
 
 self.addEventListener('install', (evt) => {
