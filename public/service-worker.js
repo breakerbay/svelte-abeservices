@@ -5,6 +5,11 @@ const CACHE_NAME = 'static-cache-v1';
 
 // Add list of files to cache here.
 const FILES_TO_CACHE = [
+  '/',
+  '/index.html',
+  '/manifest.json',
+  '/favicon.png',
+  '/abelogo.png',
   '/offline.html',
   '/global.css',
   '/build/bundle.css',
@@ -55,14 +60,17 @@ self.addEventListener('fetch', (evt) => {
   // Add fetch event handler here.
   if (evt.request.mode !== 'navigate') {
     // Not a page navigation, bail.
-    return;
+    console.log('[ServiceWorker] Fetch - not a page navigation', evt.request.url);
+    // return;
   }
+
   evt.respondWith(
       fetch(evt.request)
           .catch(() => {
             return caches.open(CACHE_NAME)
                 .then((cache) => {
-                  return cache.match('offline.html');
+                  // return cache.match('offline.html');
+                  return cache.match(evt.request);
                 });
           })
   );
