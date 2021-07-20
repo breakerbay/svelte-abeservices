@@ -1,5 +1,5 @@
 {
-  "name": "ABE Services Construction Assurance Solutions",
+  "name": "ABE Services Construction Assurance",
   "short_name": "ABE Services CAS",
   "start_url": "/index.html",
   "scope": ".",
@@ -7,7 +7,7 @@
   "orientation": "any",
   "background_color": "#3E4EB8",
   "theme_color": "#2F3BA2",
-  "description": "ABE Services Construction Assurance Solutions",
+  "description": "ABE Services Construction Assurance",
   "lang": "en-US",
   "icons": [
     {
