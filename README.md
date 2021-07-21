@@ -16,6 +16,10 @@ https://developers.google.com/web/fundamentals/primers/service-workers/lifecycle
 https://jakearchibald.github.io/isserviceworkerready/resources.html
 
 # Service Worker Examples
+https://pwastarter.com/
+https://pwastarter.love2dev.com/f2c63bf6-eed6-48c7-b56f-ab2265ecec1a/pwa.zip
+
+https://www.netguru.com/blog/pwa-ios ios PWA specifics
 
 https://www.charistheo.io/blog/2021/03/workbox-strategies-with-examples-and-use-cases/
 
