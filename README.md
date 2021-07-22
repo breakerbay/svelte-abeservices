@@ -79,3 +79,6 @@ cd my-svelte-pwa
 
 
 https://github.com/100lvlmaster/svelte-pwa
+
+# Favicon Generators
+https://favicon.io/favicon-generator/
