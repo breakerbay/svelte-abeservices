@@ -1,7 +1,8 @@
 'use strict';
 
 // Update cache names any time any of the cached files change.
-const CACHE_NAME = 'static-cache-v1';
+const CACHE_STATIC_NAME = 'static-cache-v1';
+const CACHE_DYNAMIC_NAME = 'dynamic-v2';
 
 // Add list of files to cache here.
 const FILES_TO_CACHE = [
@@ -29,7 +30,7 @@ self.addEventListener('install', (evt) => {
   console.log('[ServiceWorker] Install');
 
   evt.waitUntil(
-      caches.open(CACHE_NAME).then((cache) => {
+      caches.open(CACHE_STATIC_NAME).then((cache) => {
         console.log('[ServiceWorker] Pre-caching offline page');
         return cache.addAll(FILES_TO_CACHE);
       })
@@ -44,7 +45,7 @@ self.addEventListener('activate', (evt) => {
   evt.waitUntil(
       caches.keys().then((keyList) => {
         return Promise.all(keyList.map((key) => {
-          if (key !== CACHE_NAME) {
+          if (key !== CACHE_STATIC_NAME) {
             console.log('[ServiceWorker] Removing old cache', key);
             return caches.delete(key);
           }
@@ -55,22 +56,42 @@ self.addEventListener('activate', (evt) => {
   self.clients.claim();
 });
 
+/*
 self.addEventListener('fetch', (evt) => {
   console.log('[ServiceWorker] Fetch', evt.request.url);
   // Add fetch event handler here.
-  if (evt.request.mode !== 'navigate') {
-    // Not a page navigation, bail.
-    console.log('[ServiceWorker] Fetch - not a page navigation', evt.request.url);
-    // return;
-  }
-
   evt.respondWith(
       fetch(evt.request)
           .catch(() => {
-            return caches.open(CACHE_NAME)
+            return caches.open(CACHE_STATIC_NAME)
                 .then((cache) => {
                   return cache.match(evt.request);
                 });
           })
   );
 });
+*/
+
+self.addEventListener('fetch', function(event) {
+  event.respondWith(
+    caches.match(event.request)
+      .then(function(response) {
+        if (response) {
+          return response;
+        } else {
+          return fetch(event.request)
+            .then(function(res) {
+              return caches.open(CACHE_DYNAMIC_NAME)
+                .then(function(cache) {
+                  cache.put(event.request.url, res.clone());
+                  return res;
+                })
+            })
+            .catch(function(err) {
+                console.error(err);
+            });
+        }
+      })
+  );
+});
+
