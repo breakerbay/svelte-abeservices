@@ -52,25 +52,8 @@ self.addEventListener('activate', (evt) => {
         }));
       })
   );
-
   self.clients.claim();
 });
-
-/*
-self.addEventListener('fetch', (evt) => {
-  console.log('[ServiceWorker] Fetch', evt.request.url);
-  // Add fetch event handler here.
-  evt.respondWith(
-      fetch(evt.request)
-          .catch(() => {
-            return caches.open(CACHE_STATIC_NAME)
-                .then((cache) => {
-                  return cache.match(evt.request);
-                });
-          })
-  );
-});
-*/
 
 self.addEventListener('fetch', function(event) {
   event.respondWith(
@@ -88,7 +71,11 @@ self.addEventListener('fetch', function(event) {
                 })
             })
             .catch(function(err) {
-                console.error(err);
+              console.error(err);
+              return caches.open(CACHE_STATIC_NAME)
+                .then(function(cache) {
+                  return cache.match('/offline.html');
+                });
             });
         }
       })
