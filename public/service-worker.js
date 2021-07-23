@@ -1,11 +1,11 @@
 'use strict';
 
 // Update cache names any time any of the cached files change.
-const CACHE_STATIC_NAME = 'static-v3';
-const CACHE_DYNAMIC_NAME = 'dynamic-v3';
+const CACHE_STATIC_NAME = 'static-v1';
+const CACHE_DYNAMIC_NAME = 'dynamic-v1';
 
 // Add list of files to cache here.
-const FILES_TO_CACHE = [
+let STATIC_FILES = [
   '/',
   '/index.html',
   '/manifest.json',
@@ -32,7 +32,7 @@ self.addEventListener('install', (evt) => {
   evt.waitUntil(
       caches.open(CACHE_STATIC_NAME).then((cache) => {
         console.log('[ServiceWorker] Pre-caching offline page');
-        return cache.addAll(FILES_TO_CACHE);
+        return cache.addAll(STATIC_FILES);
       })
   );
 
