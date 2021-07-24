@@ -82,3 +82,13 @@ https://github.com/100lvlmaster/svelte-pwa
 
 # Favicon Generators
 https://favicon.io/favicon-generator/
+
+
+# Background Synch
+
+if ('serviceWorker' in navigator && 'SyncManager' in window) {
+
+# Svelte Query
+* [Svelte Query](https://sveltequery.vercel.app/)
+* [svelte-query on github](https://github.com/SvelteStack/svelte-query)
+
