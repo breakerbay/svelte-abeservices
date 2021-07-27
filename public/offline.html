@@ -5,17 +5,36 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name='viewport' content='width=device-width,initial-scale=1.0'>
 
-    <title>Svelte PWA</title>
+    <title>ABE Services</title>
 
     <link rel="manifest" href="/manifest.json">
-    <meta name="description" content="Svelte PWA starter template">
+    <meta name="description" content="ABE Services">
     <meta name="theme-color" content="#2F3BA2" />
-  </head>
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="ABE Services">
+    <link rel="apple-touch-icon" href="/src/images/meta/abe-apple-touchicon-57x57.png" sizes="57x57">
+    <link rel="apple-touch-icon" href="/src/images/meta/abe-apple-icon-60x60.png" sizes="60x60">
+    <link rel="apple-touch-icon" href="/src/images/meta/abe-apple-icon-72x72.png" sizes="72x72">
+    <link rel="apple-touch-icon" href="/src/images/meta/abe-apple-icon-76x76.png" sizes="76x76">
+    <link rel="apple-touch-icon" href="/src/images/meta/abe-apple-icon-114x114.png" sizes="114x114">
+    <link rel="apple-touch-icon" href="/src/images/meta/abe-apple-icon-120x120.png" sizes="120x120">
+    <link rel="apple-touch-icon" href="/src/images/meta/abe-apple-icon-144x144.png" sizes="144x144">
+    <link rel="apple-touch-icon" href="/src/images/meta/abe-apple-icon-152x152.png" sizes="152x152">
+    <link rel="apple-touch-icon" href="/src/images/meta/abe-apple-icon-180x180.png" sizes="180x180">
+    <meta name="msapplication-TileImage" content="/src/images/meta/abe-ms-icon-144x144.png">
+    <meta name="msapplication-TileColor" content="#fff">
+    <link rel="icon" type="image/png" href="/images/meta/abe-android-icon-144x144.png"/>
+    <link rel="stylesheet" href="/global.css" />
+    <link rel="stylesheet" href="/build/bundle.css" />
 
+    <script defer src="/build/bundle.js"></script>
+  </head>
   <body>
     <div>
-      Oops, you appear to be offline, this app requires an internet
-      connection.
+      <h5>Oops, you appear to be offline and the requested page hasn't been cached yet</h5>
+      <p>Try one of our <a href="/">other pages</a></p>
     </div>
   </body>
 </html>

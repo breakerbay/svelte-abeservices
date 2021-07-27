@@ -1,11 +1,11 @@
 'use strict';
 
 // Update cache names any time any of the cached files change.
-const CACHE_STATIC_NAME = 'static-cache-v1';
-const CACHE_DYNAMIC_NAME = 'dynamic-v2';
+const CACHE_STATIC_NAME = 'static-v1';
+const CACHE_DYNAMIC_NAME = 'dynamic-v1';
 
 // Add list of files to cache here.
-const FILES_TO_CACHE = [
+let STATIC_FILES = [
   '/',
   '/index.html',
   '/manifest.json',
@@ -32,7 +32,7 @@ self.addEventListener('install', (evt) => {
   evt.waitUntil(
       caches.open(CACHE_STATIC_NAME).then((cache) => {
         console.log('[ServiceWorker] Pre-caching offline page');
-        return cache.addAll(FILES_TO_CACHE);
+        return cache.addAll(STATIC_FILES);
       })
   );
 
@@ -45,32 +45,15 @@ self.addEventListener('activate', (evt) => {
   evt.waitUntil(
       caches.keys().then((keyList) => {
         return Promise.all(keyList.map((key) => {
-          if (key !== CACHE_STATIC_NAME) {
+          if (key !== CACHE_STATIC_NAME && key !== CACHE_DYNAMIC_NAME ) {
             console.log('[ServiceWorker] Removing old cache', key);
             return caches.delete(key);
           }
         }));
       })
   );
-
   self.clients.claim();
 });
-
-/*
-self.addEventListener('fetch', (evt) => {
-  console.log('[ServiceWorker] Fetch', evt.request.url);
-  // Add fetch event handler here.
-  evt.respondWith(
-      fetch(evt.request)
-          .catch(() => {
-            return caches.open(CACHE_STATIC_NAME)
-                .then((cache) => {
-                  return cache.match(evt.request);
-                });
-          })
-  );
-});
-*/
 
 self.addEventListener('fetch', function(event) {
   event.respondWith(
@@ -88,10 +71,55 @@ self.addEventListener('fetch', function(event) {
                 })
             })
             .catch(function(err) {
-                console.error(err);
+              console.error(err);
+              return caches.open(CACHE_STATIC_NAME)
+                .then(function(cache) {
+                  return cache.match('/offline.html');
+                });
             });
         }
       })
   );
 });
 
+/*
+Draft Background syncing
+self.addEventListener('sync', function(event) {
+  console.log('[Service Worker] Background syncing', event);
+  if (event.tag === 'sync-new-posts') {
+    console.log('[Service Worker] Syncing new Posts');
+    event.waitUntil(
+      readAllData('sync-posts')
+        .then(function(data) {
+          for (var dt of data) {
+            fetch('https://us-central1-pwagram-99adf.cloudfunctions.net/storePostData', {
+              method: 'POST',
+              headers: {
+                'Content-Type': 'application/json',
+                'Accept': 'application/json'
+              },
+              body: JSON.stringify({
+                id: dt.id,
+                title: dt.title,
+                location: dt.location,
+                image: 'https://firebasestorage.googleapis.com/v0/b/pwagram-99adf.appspot.com/o/sf-boat.jpg?alt=media&token=19f4770c-fc8c-4882-92f1-62000ff06f16'
+              })
+            })
+              .then(function(res) {
+                console.log('Sent data', res);
+                if (res.ok) {
+                  res.json()
+                    .then(function(resData) {
+                      deleteItemFromData('sync-posts', resData.id);
+                    });
+                }
+              })
+              .catch(function(err) {
+                console.log('Error while sending data', err);
+              });
+          }
+
+        })
+    );
+  }
+});*/
