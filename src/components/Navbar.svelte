@@ -14,8 +14,8 @@
         // { label: "Links", href: "#/links" },
         // { label: "News", href: "#/news" },
         // { label: "Login", href: "#/login" },
-        { label: "Cards", href: "#/cards" },
-        { label: "Static Images", href: "#/static-images" }
+        // { label: "Cards", href: "#/cards" },
+        // { label: "Static Images", href: "#/static-images" }
         // { label: "Images", href: "#/images" }
     ];
 
