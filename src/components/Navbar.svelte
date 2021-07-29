@@ -201,6 +201,7 @@
 
         .navbar-list {
             display: flex;
+	    justify-content: flex-end;
             padding: 0;
         }
 
