@@ -88,8 +88,9 @@
     nav {
         /*background-color: rgba(0, 0, 0, 0.8);*/
         background-color: #2780e3;
-	    font-family: Arial, Helvetica, sans-serif;
-        height: 45px;
+	font-family: Arial, Helvetica, sans-serif;
+        /*height: 45px;*/
+        height: 65px;
     }
 
     .inner {
