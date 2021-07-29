@@ -203,7 +203,14 @@
         .logo {
             width: 100%;
             color: #fff;
-        }	    
+        }
+	      
+        img {
+            width: auto;
+            height: 60px;
+            object-fit: contain;
+            margin-right: 0.5rem;
+        }
 
         .navbar-list {
             display: flex;
