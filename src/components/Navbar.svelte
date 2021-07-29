@@ -71,6 +71,7 @@
         <div on:click={handleMobileIconClick} class={`mobile-icon${showMobileMenu ? ' active' : ''}`}>
             <div class="middle-line"></div>
         </div>
+	<h3 class="logo">Construction Assurance Solutions (CAS)</h3>
         <ul class={`navbar-list${showMobileMenu ? ' mobile' : ''}`}>
             {#each navItems as item}
                 <li>
@@ -198,6 +199,11 @@
         .mobile-icon {
             display: none;
         }
+	    
+        .logo {
+            width: 100%;
+            color: #fff;
+        }	    
 
         .navbar-list {
             display: flex;
