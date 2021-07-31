@@ -38,7 +38,7 @@
 
     // Mobile menu click event handler
     const handleMobileIconClick = () => (showMobileMenu = !showMobileMenu);
-    
+
     // CLose mobile menu when menu item selected
     const closeMobileMenu = () => (showMobileMenu = false);
 
@@ -55,7 +55,7 @@
         const mediaListener = window.matchMedia("(max-width: 767px)");
 
         mediaListener.addListener(mediaQueryHandler);
-        
+
         let menuItems = document.querySelectorAll('.navbar-list li a');
 
         let i = 0;
@@ -201,12 +201,12 @@
         .mobile-icon {
             display: none;
         }
-	    
+
         .logo {
             width: 100%;
             color: #fff;
         }
-	      
+
         img {
             width: auto;
             height: 60px;
@@ -216,7 +216,7 @@
 
         .navbar-list {
             display: flex;
-	    justify-content: flex-end;
+	        justify-content: flex-end;
             padding: 0;
         }
 
