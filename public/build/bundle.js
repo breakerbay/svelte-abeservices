@@ -1868,7 +1868,7 @@ var app = (function () {
 
     function create_fragment$k(ctx) {
     	let t0;
-    	let blockquote0;
+    	let blockquote1;
     	let p0;
     	let t2;
     	let h1;
@@ -1891,7 +1891,7 @@ var app = (function () {
     	let a2;
     	let t16;
     	let div1;
-    	let blockquote1;
+    	let blockquote0;
     	let p3;
     	let t18;
     	let p4;
@@ -1900,13 +1900,11 @@ var app = (function () {
     	let strong;
     	let t21;
     	let a3;
-    	let t23;
-    	let footer;
 
     	const block = {
     		c: function create() {
     			t0 = space();
-    			blockquote0 = element("blockquote");
+    			blockquote1 = element("blockquote");
     			p0 = element("p");
     			p0.textContent = "ABE Services is the developer and provider of the:";
     			t2 = space();
@@ -1937,7 +1935,7 @@ var app = (function () {
     			a2.textContent = "More about the CDMS for Clients, Superintendents and others engaging and\n                monitoring contractors.";
     			t16 = space();
     			div1 = element("div");
-    			blockquote1 = element("blockquote");
+    			blockquote0 = element("blockquote");
     			p3 = element("p");
     			p3.textContent = "The CDMS will commence commercial operations later this year - Details will be in \"News\"";
     			t18 = space();
@@ -1949,12 +1947,10 @@ var app = (function () {
     			t21 = text("Please contact John and Mike for details, email ");
     			a3 = element("a");
     			a3.textContent = "abeservices@outlook.com";
-    			t23 = space();
-    			footer = element("footer");
     			document.title = "ABE Services";
     			add_location(p0, file$i, 9, 4, 180);
     			attr_dev(h1, "align", "center");
-    			attr_dev(h1, "class", "svelte-1uhjzxq");
+    			attr_dev(h1, "class", "svelte-i7dka8");
     			add_location(h1, file$i, 10, 4, 243);
     			attr_dev(h2, "align", "center");
     			add_location(h2, file$i, 11, 4, 276);
@@ -1973,33 +1969,32 @@ var app = (function () {
     			add_location(li2, file$i, 22, 12, 896);
     			add_location(ul, file$i, 19, 8, 697);
     			add_location(div0, file$i, 14, 4, 418);
-    			add_location(blockquote0, file$i, 8, 0, 163);
-    			add_location(p3, file$i, 34, 8, 1378);
-    			add_location(p4, file$i, 35, 8, 1492);
+    			add_location(p3, file$i, 33, 12, 1376);
+    			add_location(p4, file$i, 34, 12, 1494);
     			attr_dev(a3, "href", "mailto:abeservices@outlook.com");
-    			add_location(a3, file$i, 36, 67, 1630);
-    			add_location(strong, file$i, 36, 11, 1574);
-    			add_location(p5, file$i, 36, 8, 1571);
-    			add_location(blockquote1, file$i, 33, 4, 1357);
+    			add_location(a3, file$i, 35, 71, 1636);
+    			add_location(strong, file$i, 35, 15, 1580);
+    			add_location(p5, file$i, 35, 12, 1577);
+    			add_location(blockquote0, file$i, 32, 8, 1351);
     			attr_dev(div1, "align", "center");
-    			add_location(div1, file$i, 32, 0, 1332);
-    			add_location(footer, file$i, 41, 0, 1747);
+    			add_location(div1, file$i, 31, 4, 1322);
+    			add_location(blockquote1, file$i, 8, 0, 163);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, t0, anchor);
-    			insert_dev(target, blockquote0, anchor);
-    			append_dev(blockquote0, p0);
-    			append_dev(blockquote0, t2);
-    			append_dev(blockquote0, h1);
-    			append_dev(blockquote0, t4);
-    			append_dev(blockquote0, h2);
-    			append_dev(blockquote0, t6);
-    			append_dev(blockquote0, p1);
-    			append_dev(blockquote0, t8);
-    			append_dev(blockquote0, div0);
+    			insert_dev(target, blockquote1, anchor);
+    			append_dev(blockquote1, p0);
+    			append_dev(blockquote1, t2);
+    			append_dev(blockquote1, h1);
+    			append_dev(blockquote1, t4);
+    			append_dev(blockquote1, h2);
+    			append_dev(blockquote1, t6);
+    			append_dev(blockquote1, p1);
+    			append_dev(blockquote1, t8);
+    			append_dev(blockquote1, div0);
     			append_dev(div0, p2);
     			append_dev(div0, t10);
     			append_dev(div0, ul);
@@ -2011,30 +2006,24 @@ var app = (function () {
     			append_dev(ul, t14);
     			append_dev(ul, li2);
     			append_dev(li2, a2);
-    			insert_dev(target, t16, anchor);
-    			insert_dev(target, div1, anchor);
-    			append_dev(div1, blockquote1);
-    			append_dev(blockquote1, p3);
-    			append_dev(blockquote1, t18);
-    			append_dev(blockquote1, p4);
-    			append_dev(blockquote1, t20);
-    			append_dev(blockquote1, p5);
+    			append_dev(blockquote1, t16);
+    			append_dev(blockquote1, div1);
+    			append_dev(div1, blockquote0);
+    			append_dev(blockquote0, p3);
+    			append_dev(blockquote0, t18);
+    			append_dev(blockquote0, p4);
+    			append_dev(blockquote0, t20);
+    			append_dev(blockquote0, p5);
     			append_dev(p5, strong);
     			append_dev(strong, t21);
     			append_dev(strong, a3);
-    			insert_dev(target, t23, anchor);
-    			insert_dev(target, footer, anchor);
     		},
     		p: noop,
     		i: noop,
     		o: noop,
     		d: function destroy(detaching) {
     			if (detaching) detach_dev(t0);
-    			if (detaching) detach_dev(blockquote0);
-    			if (detaching) detach_dev(t16);
-    			if (detaching) detach_dev(div1);
-    			if (detaching) detach_dev(t23);
-    			if (detaching) detach_dev(footer);
+    			if (detaching) detach_dev(blockquote1);
     		}
     	};
 
@@ -2077,311 +2066,19 @@ var app = (function () {
 
     /* src/cdms/body/Clients.svelte generated by Svelte v3.38.3 */
 
-    const file$h = "src/cdms/body/Clients.svelte";
-
     function create_fragment$j(ctx) {
-    	let t0;
-    	let h2;
-    	let t2;
-    	let hr;
-    	let t3;
-    	let blockquote1;
-    	let p0;
-    	let font0;
-    	let t4;
-    	let t5;
-    	let table0;
-    	let tr0;
-    	let td0;
-    	let font1;
-    	let t6;
-    	let t7;
-    	let tr1;
-    	let td1;
-    	let font2;
-    	let t8;
-    	let t9;
-    	let tr2;
-    	let td2;
-    	let font3;
-    	let t10;
-    	let t11;
-    	let p1;
-    	let font4;
-    	let t12;
-    	let t13;
-    	let table1;
-    	let tr3;
-    	let td3;
-    	let font5;
-    	let t14;
-    	let em0;
-    	let strong0;
-    	let t15;
-    	let t16;
-    	let t17;
-    	let tr4;
-    	let td4;
-    	let font6;
-    	let t18;
-    	let em1;
-    	let strong1;
-    	let t19;
-    	let t20;
-    	let t21;
-    	let tr5;
-    	let td5;
-    	let font7;
-    	let t22;
-    	let t23;
-    	let tr6;
-    	let td6;
-    	let font8;
-    	let t24;
-    	let t25;
-    	let tr7;
-    	let td7;
-    	let font9;
-    	let t26;
-    	let em2;
-    	let strong2;
-    	let t27;
-    	let t28;
-    	let t29;
-    	let p2;
-    	let t31;
-    	let blockquote0;
-
     	const block = {
     		c: function create() {
-    			t0 = space();
-    			h2 = element("h2");
-    			h2.textContent = "Benefits to Clients, Superintendents and Project Managers";
-    			t2 = space();
-    			hr = element("hr");
-    			t3 = space();
-    			blockquote1 = element("blockquote");
-    			p0 = element("p");
-    			font0 = svg_element("font");
-    			t4 = text("The CDMS provides Clients,\n        Superintendents and Project Managers with:");
-    			t5 = space();
-    			table0 = element("table");
-    			tr0 = element("tr");
-    			td0 = element("td");
-    			font1 = svg_element("font");
-    			t6 = text("• On-line\n                access to contractor’s plans for inspection and testing (ITPs);");
-    			t7 = space();
-    			tr1 = element("tr");
-    			td1 = element("td");
-    			font2 = svg_element("font");
-    			t8 = text("• On-line\n                access to contractors’ records of checking compliance of work,\n                including for date, time and person undertaking checks; and");
-    			t9 = space();
-    			tr2 = element("tr");
-    			td2 = element("td");
-    			font3 = svg_element("font");
-    			t10 = text("• On-line\n                access to contractor’s nonconformance (Follow Up Action) records.");
-    			t11 = space();
-    			p1 = element("p");
-    			font4 = svg_element("font");
-    			t12 = text("With the use of these\n        capabilities, combined with the contractors’ use of the CDMS with its\n        advantages for assisting in their work, the benefits to Clients, Superintendents\n        and Project Managers include:");
-    			t13 = space();
-    			table1 = element("table");
-    			tr3 = element("tr");
-    			td3 = element("td");
-    			font5 = svg_element("font");
-    			t14 = text("• Enabling ");
-    			em0 = svg_element("em");
-    			strong0 = svg_element("strong");
-    			t15 = text("effective\n                monitoring");
-    			t16 = text(" arrangements that provide genuine confidence\n                in constructed works;");
-    			t17 = space();
-    			tr4 = element("tr");
-    			td4 = element("td");
-    			font6 = svg_element("font");
-    			t18 = text("• ");
-    			em1 = svg_element("em");
-    			strong1 = svg_element("strong");
-    			t19 = text("Increased\n                efficiency");
-    			t20 = text(" in monitoring through on-line access to\n                planning and compliance records;");
-    			t21 = space();
-    			tr5 = element("tr");
-    			td5 = element("td");
-    			font7 = svg_element("font");
-    			t22 = text("• Improved\n                communication;");
-    			t23 = space();
-    			tr6 = element("tr");
-    			td6 = element("td");
-    			font8 = svg_element("font");
-    			t24 = text("• Facilitation\n                of early identification of potential issues and problem projects;");
-    			t25 = space();
-    			tr7 = element("tr");
-    			td7 = element("td");
-    			font9 = svg_element("font");
-    			t26 = text("• Ready ");
-    			em2 = svg_element("em");
-    			strong2 = svg_element("strong");
-    			t27 = text("demonstration\n                of accountability");
-    			t28 = text(".");
-    			t29 = space();
-    			p2 = element("p");
-    			p2.textContent = " ";
-    			t31 = space();
-    			blockquote0 = element("blockquote");
-    			blockquote0.textContent = " ";
-    			document.title = "ABE Services - Clients";
-    			add_location(h2, file$h, 4, 0, 72);
-    			add_location(hr, file$h, 5, 0, 140);
-    			attr_dev(font0, "size", "2");
-    			attr_dev(font0, "face", "Arial, Helvetica, sans-serif");
-    			add_location(font0, file$h, 7, 7, 165);
-    			add_location(p0, file$h, 7, 4, 162);
-    			attr_dev(font1, "size", "2");
-    			attr_dev(font1, "face", "Arial, Helvetica, sans-serif");
-    			add_location(font1, file$h, 11, 16, 369);
-    			add_location(td0, file$h, 11, 12, 365);
-    			add_location(tr0, file$h, 10, 8, 348);
-    			attr_dev(font2, "size", "2");
-    			attr_dev(font2, "face", "Arial, Helvetica, sans-serif");
-    			add_location(font2, file$h, 15, 16, 577);
-    			add_location(td1, file$h, 15, 12, 573);
-    			add_location(tr1, file$h, 14, 8, 556);
-    			attr_dev(font3, "size", "2");
-    			attr_dev(font3, "face", "Arial, Helvetica, sans-serif");
-    			add_location(font3, file$h, 20, 16, 860);
-    			add_location(td2, file$h, 20, 12, 856);
-    			add_location(tr2, file$h, 19, 8, 839);
-    			attr_dev(table0, "width", "863");
-    			attr_dev(table0, "border", "0");
-    			add_location(table0, file$h, 9, 4, 309);
-    			attr_dev(font4, "size", "2");
-    			attr_dev(font4, "face", "Arial, Helvetica, sans-serif");
-    			add_location(font4, file$h, 24, 7, 1061);
-    			add_location(p1, file$h, 24, 4, 1058);
-    			add_location(strong0, file$h, 30, 88, 1492);
-    			add_location(em0, file$h, 30, 84, 1488);
-    			attr_dev(font5, "size", "2");
-    			attr_dev(font5, "face", "Arial, Helvetica, sans-serif");
-    			add_location(font5, file$h, 30, 16, 1420);
-    			add_location(td3, file$h, 30, 12, 1416);
-    			add_location(tr3, file$h, 29, 8, 1399);
-    			add_location(strong1, file$h, 35, 79, 1752);
-    			add_location(em1, file$h, 35, 75, 1748);
-    			attr_dev(font6, "size", "2");
-    			attr_dev(font6, "face", "Arial, Helvetica, sans-serif");
-    			add_location(font6, file$h, 35, 16, 1689);
-    			add_location(td4, file$h, 35, 12, 1685);
-    			add_location(tr4, file$h, 34, 8, 1668);
-    			attr_dev(font7, "size", "2");
-    			attr_dev(font7, "face", "Arial, Helvetica, sans-serif");
-    			add_location(font7, file$h, 40, 16, 1955);
-    			add_location(td5, file$h, 40, 12, 1951);
-    			add_location(tr5, file$h, 39, 8, 1934);
-    			attr_dev(font8, "size", "2");
-    			attr_dev(font8, "face", "Arial, Helvetica, sans-serif");
-    			add_location(font8, file$h, 44, 16, 2110);
-    			add_location(td6, file$h, 44, 12, 2106);
-    			add_location(tr6, file$h, 43, 8, 2089);
-    			add_location(strong2, file$h, 48, 85, 2388);
-    			add_location(em2, file$h, 48, 81, 2384);
-    			attr_dev(font9, "size", "2");
-    			attr_dev(font9, "face", "Arial, Helvetica, sans-serif");
-    			add_location(font9, file$h, 48, 16, 2319);
-    			add_location(td7, file$h, 48, 12, 2315);
-    			add_location(tr7, file$h, 47, 8, 2298);
-    			attr_dev(table1, "width", "859");
-    			attr_dev(table1, "border", "0");
-    			add_location(table1, file$h, 28, 4, 1360);
-    			add_location(p2, file$h, 52, 4, 2502);
-    			add_location(blockquote0, file$h, 53, 4, 2520);
-    			add_location(blockquote1, file$h, 6, 0, 145);
+    			document.title = "ABE Services - How It Works";
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
     		},
-    		m: function mount(target, anchor) {
-    			insert_dev(target, t0, anchor);
-    			insert_dev(target, h2, anchor);
-    			insert_dev(target, t2, anchor);
-    			insert_dev(target, hr, anchor);
-    			insert_dev(target, t3, anchor);
-    			insert_dev(target, blockquote1, anchor);
-    			append_dev(blockquote1, p0);
-    			append_dev(p0, font0);
-    			append_dev(font0, t4);
-    			append_dev(blockquote1, t5);
-    			append_dev(blockquote1, table0);
-    			append_dev(table0, tr0);
-    			append_dev(tr0, td0);
-    			append_dev(td0, font1);
-    			append_dev(font1, t6);
-    			append_dev(table0, t7);
-    			append_dev(table0, tr1);
-    			append_dev(tr1, td1);
-    			append_dev(td1, font2);
-    			append_dev(font2, t8);
-    			append_dev(table0, t9);
-    			append_dev(table0, tr2);
-    			append_dev(tr2, td2);
-    			append_dev(td2, font3);
-    			append_dev(font3, t10);
-    			append_dev(blockquote1, t11);
-    			append_dev(blockquote1, p1);
-    			append_dev(p1, font4);
-    			append_dev(font4, t12);
-    			append_dev(blockquote1, t13);
-    			append_dev(blockquote1, table1);
-    			append_dev(table1, tr3);
-    			append_dev(tr3, td3);
-    			append_dev(td3, font5);
-    			append_dev(font5, t14);
-    			append_dev(font5, em0);
-    			append_dev(em0, strong0);
-    			append_dev(strong0, t15);
-    			append_dev(font5, t16);
-    			append_dev(table1, t17);
-    			append_dev(table1, tr4);
-    			append_dev(tr4, td4);
-    			append_dev(td4, font6);
-    			append_dev(font6, t18);
-    			append_dev(font6, em1);
-    			append_dev(em1, strong1);
-    			append_dev(strong1, t19);
-    			append_dev(font6, t20);
-    			append_dev(table1, t21);
-    			append_dev(table1, tr5);
-    			append_dev(tr5, td5);
-    			append_dev(td5, font7);
-    			append_dev(font7, t22);
-    			append_dev(table1, t23);
-    			append_dev(table1, tr6);
-    			append_dev(tr6, td6);
-    			append_dev(td6, font8);
-    			append_dev(font8, t24);
-    			append_dev(table1, t25);
-    			append_dev(table1, tr7);
-    			append_dev(tr7, td7);
-    			append_dev(td7, font9);
-    			append_dev(font9, t26);
-    			append_dev(font9, em2);
-    			append_dev(em2, strong2);
-    			append_dev(strong2, t27);
-    			append_dev(font9, t28);
-    			append_dev(blockquote1, t29);
-    			append_dev(blockquote1, p2);
-    			append_dev(blockquote1, t31);
-    			append_dev(blockquote1, blockquote0);
-    		},
+    		m: noop,
     		p: noop,
     		i: noop,
     		o: noop,
-    		d: function destroy(detaching) {
-    			if (detaching) detach_dev(t0);
-    			if (detaching) detach_dev(h2);
-    			if (detaching) detach_dev(t2);
-    			if (detaching) detach_dev(hr);
-    			if (detaching) detach_dev(t3);
-    			if (detaching) detach_dev(blockquote1);
-    		}
+    		d: noop
     	};
 
     	dispatch_dev("SvelteRegisterBlock", {
@@ -2477,19 +2174,198 @@ var app = (function () {
 
     /* src/cdms/body/HowItWorks.svelte generated by Svelte v3.38.3 */
 
+    const file$h = "src/cdms/body/HowItWorks.svelte";
+
     function create_fragment$h(ctx) {
+    	let t0;
+    	let h2;
+    	let t2;
+    	let hr;
+    	let t3;
+    	let div;
+    	let p0;
+    	let t5;
+    	let p1;
+    	let t7;
+    	let p2;
+    	let t9;
+    	let ol;
+    	let li0;
+    	let a0;
+    	let t11;
+    	let li1;
+    	let a1;
+    	let t13;
+    	let li2;
+    	let a2;
+    	let t15;
+    	let li3;
+    	let a3;
+    	let t17;
+    	let li4;
+    	let a4;
+    	let t19;
+    	let li5;
+    	let a5;
+    	let t21;
+    	let li6;
+    	let a6;
+    	let t23;
+    	let li7;
+    	let a7;
+    	let t25;
+    	let li8;
+    	let a8;
+
     	const block = {
     		c: function create() {
+    			t0 = space();
+    			h2 = element("h2");
+    			h2.textContent = "CAS -  How it Works";
+    			t2 = space();
+    			hr = element("hr");
+    			t3 = space();
+    			div = element("div");
+    			p0 = element("p");
+    			p0.textContent = "(Last updated 14/12/04)";
+    			t5 = space();
+    			p1 = element("p");
+    			p1.textContent = "The CDMS makes demonstrating compliance on construction projects easy.";
+    			t7 = space();
+    			p2 = element("p");
+    			p2.textContent = "CDMS = Compliance Data Made Simple";
+    			t9 = space();
+    			ol = element("ol");
+    			li0 = element("li");
+    			a0 = element("a");
+    			a0.textContent = "The CDMS Concept";
+    			t11 = space();
+    			li1 = element("li");
+    			a1 = element("a");
+    			a1.textContent = "Using the CDMS on Projects";
+    			t13 = space();
+    			li2 = element("li");
+    			a2 = element("a");
+    			a2.textContent = "Getting started";
+    			t15 = space();
+    			li3 = element("li");
+    			a3 = element("a");
+    			a3.textContent = "Setting up ITP's";
+    			t17 = space();
+    			li4 = element("li");
+    			a4 = element("a");
+    			a4.textContent = "Recording data";
+    			t19 = space();
+    			li5 = element("li");
+    			a5 = element("a");
+    			a5.textContent = "Viewing reports";
+    			t21 = space();
+    			li6 = element("li");
+    			a6 = element("a");
+    			a6.textContent = "Providing access to others";
+    			t23 = space();
+    			li7 = element("li");
+    			a7 = element("a");
+    			a7.textContent = "Hardware and Software Requirements";
+    			t25 = space();
+    			li8 = element("li");
+    			a8 = element("a");
+    			a8.textContent = "Palm Capacity Limitation";
     			document.title = "ABE Services - How It Works";
+    			attr_dev(h2, "align", "center");
+    			add_location(h2, file$h, 4, 0, 81);
+    			add_location(hr, file$h, 5, 0, 126);
+    			attr_dev(p0, "align", "center");
+    			add_location(p0, file$h, 7, 4, 143);
+    			attr_dev(p1, "align", "center");
+    			add_location(p1, file$h, 8, 4, 194);
+    			attr_dev(p2, "align", "center");
+    			add_location(p2, file$h, 9, 4, 292);
+    			attr_dev(a0, "href", "#A1");
+    			add_location(a0, file$h, 11, 12, 372);
+    			add_location(li0, file$h, 11, 8, 368);
+    			attr_dev(a1, "href", "#WhatistheCDMS");
+    			add_location(a1, file$h, 12, 12, 425);
+    			add_location(li1, file$h, 12, 8, 421);
+    			attr_dev(a2, "href", "#A2");
+    			add_location(a2, file$h, 13, 12, 499);
+    			add_location(li2, file$h, 13, 8, 495);
+    			attr_dev(a3, "href", "#A3");
+    			add_location(a3, file$h, 14, 12, 551);
+    			add_location(li3, file$h, 14, 8, 547);
+    			attr_dev(a4, "href", "#A4");
+    			add_location(a4, file$h, 15, 12, 604);
+    			add_location(li4, file$h, 15, 8, 600);
+    			attr_dev(a5, "href", "#A5");
+    			add_location(a5, file$h, 16, 12, 655);
+    			add_location(li5, file$h, 16, 8, 651);
+    			attr_dev(a6, "href", "#A6");
+    			add_location(a6, file$h, 17, 12, 707);
+    			add_location(li6, file$h, 17, 8, 703);
+    			attr_dev(a7, "href", "#Requirements");
+    			add_location(a7, file$h, 18, 12, 770);
+    			add_location(li7, file$h, 18, 8, 766);
+    			attr_dev(a8, "href", "#Capacity");
+    			add_location(a8, file$h, 19, 12, 851);
+    			add_location(li8, file$h, 19, 8, 847);
+    			add_location(ol, file$h, 10, 4, 354);
+    			add_location(div, file$h, 6, 0, 132);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
     		},
-    		m: noop,
+    		m: function mount(target, anchor) {
+    			insert_dev(target, t0, anchor);
+    			insert_dev(target, h2, anchor);
+    			insert_dev(target, t2, anchor);
+    			insert_dev(target, hr, anchor);
+    			insert_dev(target, t3, anchor);
+    			insert_dev(target, div, anchor);
+    			append_dev(div, p0);
+    			append_dev(div, t5);
+    			append_dev(div, p1);
+    			append_dev(div, t7);
+    			append_dev(div, p2);
+    			append_dev(div, t9);
+    			append_dev(div, ol);
+    			append_dev(ol, li0);
+    			append_dev(li0, a0);
+    			append_dev(ol, t11);
+    			append_dev(ol, li1);
+    			append_dev(li1, a1);
+    			append_dev(ol, t13);
+    			append_dev(ol, li2);
+    			append_dev(li2, a2);
+    			append_dev(ol, t15);
+    			append_dev(ol, li3);
+    			append_dev(li3, a3);
+    			append_dev(ol, t17);
+    			append_dev(ol, li4);
+    			append_dev(li4, a4);
+    			append_dev(ol, t19);
+    			append_dev(ol, li5);
+    			append_dev(li5, a5);
+    			append_dev(ol, t21);
+    			append_dev(ol, li6);
+    			append_dev(li6, a6);
+    			append_dev(ol, t23);
+    			append_dev(ol, li7);
+    			append_dev(li7, a7);
+    			append_dev(ol, t25);
+    			append_dev(ol, li8);
+    			append_dev(li8, a8);
+    		},
     		p: noop,
     		i: noop,
     		o: noop,
-    		d: noop
+    		d: function destroy(detaching) {
+    			if (detaching) detach_dev(t0);
+    			if (detaching) detach_dev(h2);
+    			if (detaching) detach_dev(t2);
+    			if (detaching) detach_dev(hr);
+    			if (detaching) detach_dev(t3);
+    			if (detaching) detach_dev(div);
+    		}
     	};
 
     	dispatch_dev("SvelteRegisterBlock", {
@@ -6794,7 +6670,7 @@ var app = (function () {
     	return child_ctx;
     }
 
-    // (75:12) {#each navItems as item}
+    // (77:12) {#each navItems as item}
     function create_each_block(ctx) {
     	let li;
     	let a;
@@ -6809,10 +6685,10 @@ var app = (function () {
     			t0 = text(t0_value);
     			t1 = space();
     			attr_dev(a, "href", /*item*/ ctx[6].href);
-    			attr_dev(a, "class", "svelte-11w822f");
-    			add_location(a, file$1, 76, 20, 2435);
-    			attr_dev(li, "class", "svelte-11w822f");
-    			add_location(li, file$1, 75, 16, 2410);
+    			attr_dev(a, "class", "svelte-1ppdra8");
+    			add_location(a, file$1, 78, 20, 2546);
+    			attr_dev(li, "class", "svelte-1ppdra8");
+    			add_location(li, file$1, 77, 16, 2521);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, li, anchor);
@@ -6830,7 +6706,7 @@ var app = (function () {
     		block,
     		id: create_each_block.name,
     		type: "each",
-    		source: "(75:12) {#each navItems as item}",
+    		source: "(77:12) {#each navItems as item}",
     		ctx
     	});
 
@@ -6839,11 +6715,17 @@ var app = (function () {
 
     function create_fragment$1(ctx) {
     	let nav;
-    	let div2;
+    	let div3;
     	let div1;
     	let div0;
     	let div1_class_value;
-    	let t;
+    	let t0;
+    	let div2;
+    	let img;
+    	let img_src_value;
+    	let t1;
+    	let h3;
+    	let t3;
     	let ul;
     	let ul_class_value;
     	let mounted;
@@ -6859,37 +6741,55 @@ var app = (function () {
     	const block = {
     		c: function create() {
     			nav = element("nav");
-    			div2 = element("div");
+    			div3 = element("div");
     			div1 = element("div");
     			div0 = element("div");
-    			t = space();
+    			t0 = space();
+    			div2 = element("div");
+    			img = element("img");
+    			t1 = space();
+    			h3 = element("h3");
+    			h3.textContent = "Construction Assurance Solutions (CAS)";
+    			t3 = space();
     			ul = element("ul");
 
     			for (let i = 0; i < each_blocks.length; i += 1) {
     				each_blocks[i].c();
     			}
 
-    			attr_dev(div0, "class", "middle-line svelte-11w822f");
-    			add_location(div0, file$1, 71, 12, 2241);
-    			attr_dev(div1, "class", div1_class_value = "" + (null_to_empty(`mobile-icon${/*showMobileMenu*/ ctx[0] ? " active" : ""}`) + " svelte-11w822f"));
-    			add_location(div1, file$1, 70, 8, 2134);
-    			attr_dev(ul, "class", ul_class_value = "" + (null_to_empty(`navbar-list${/*showMobileMenu*/ ctx[0] ? " mobile" : ""}`) + " svelte-11w822f"));
-    			add_location(ul, file$1, 73, 8, 2296);
-    			attr_dev(div2, "class", "inner svelte-11w822f");
-    			add_location(div2, file$1, 69, 4, 2106);
-    			attr_dev(nav, "class", "svelte-11w822f");
-    			add_location(nav, file$1, 68, 0, 2096);
+    			attr_dev(div0, "class", "middle-line svelte-1ppdra8");
+    			add_location(div0, file$1, 71, 12, 2229);
+    			attr_dev(div1, "class", div1_class_value = "" + (null_to_empty(`mobile-icon${/*showMobileMenu*/ ctx[0] ? " active" : ""}`) + " svelte-1ppdra8"));
+    			add_location(div1, file$1, 70, 8, 2122);
+    			if (img.src !== (img_src_value = "abelogo3.gif")) attr_dev(img, "src", img_src_value);
+    			attr_dev(img, "alt", "ABE Services Logo");
+    			attr_dev(img, "class", "svelte-1ppdra8");
+    			add_location(img, file$1, 73, 6, 2282);
+    			add_location(div2, file$1, 73, 1, 2277);
+    			attr_dev(h3, "class", "logo svelte-1ppdra8");
+    			add_location(h3, file$1, 74, 1, 2338);
+    			attr_dev(ul, "class", ul_class_value = "" + (null_to_empty(`navbar-list${/*showMobileMenu*/ ctx[0] ? " mobile" : ""}`) + " svelte-1ppdra8"));
+    			add_location(ul, file$1, 75, 8, 2407);
+    			attr_dev(div3, "class", "inner svelte-1ppdra8");
+    			add_location(div3, file$1, 69, 4, 2094);
+    			attr_dev(nav, "class", "svelte-1ppdra8");
+    			add_location(nav, file$1, 68, 0, 2084);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, nav, anchor);
-    			append_dev(nav, div2);
-    			append_dev(div2, div1);
+    			append_dev(nav, div3);
+    			append_dev(div3, div1);
     			append_dev(div1, div0);
-    			append_dev(div2, t);
-    			append_dev(div2, ul);
+    			append_dev(div3, t0);
+    			append_dev(div3, div2);
+    			append_dev(div2, img);
+    			append_dev(div3, t1);
+    			append_dev(div3, h3);
+    			append_dev(div3, t3);
+    			append_dev(div3, ul);
 
     			for (let i = 0; i < each_blocks.length; i += 1) {
     				each_blocks[i].m(ul, null);
@@ -6901,7 +6801,7 @@ var app = (function () {
     			}
     		},
     		p: function update(ctx, [dirty]) {
-    			if (dirty & /*showMobileMenu*/ 1 && div1_class_value !== (div1_class_value = "" + (null_to_empty(`mobile-icon${/*showMobileMenu*/ ctx[0] ? " active" : ""}`) + " svelte-11w822f"))) {
+    			if (dirty & /*showMobileMenu*/ 1 && div1_class_value !== (div1_class_value = "" + (null_to_empty(`mobile-icon${/*showMobileMenu*/ ctx[0] ? " active" : ""}`) + " svelte-1ppdra8"))) {
     				attr_dev(div1, "class", div1_class_value);
     			}
 
@@ -6929,7 +6829,7 @@ var app = (function () {
     				each_blocks.length = each_value.length;
     			}
 
-    			if (dirty & /*showMobileMenu*/ 1 && ul_class_value !== (ul_class_value = "" + (null_to_empty(`navbar-list${/*showMobileMenu*/ ctx[0] ? " mobile" : ""}`) + " svelte-11w822f"))) {
+    			if (dirty & /*showMobileMenu*/ 1 && ul_class_value !== (ul_class_value = "" + (null_to_empty(`navbar-list${/*showMobileMenu*/ ctx[0] ? " mobile" : ""}`) + " svelte-1ppdra8"))) {
     				attr_dev(ul, "class", ul_class_value);
     			}
     		},
@@ -7058,11 +6958,11 @@ var app = (function () {
     const file = "src/App.svelte";
 
     function create_fragment(ctx) {
-    	let div2;
+    	let div1;
     	let navbar;
     	let t0;
-    	let div1;
     	let div0;
+    	let section;
     	let router;
     	let t1;
     	let footer;
@@ -7078,11 +6978,11 @@ var app = (function () {
 
     	const block = {
     		c: function create() {
-    			div2 = element("div");
+    			div1 = element("div");
     			create_component(navbar.$$.fragment);
     			t0 = space();
-    			div1 = element("div");
     			div0 = element("div");
+    			section = element("section");
     			create_component(router.$$.fragment);
     			t1 = space();
     			footer = element("footer");
@@ -7095,33 +6995,33 @@ var app = (function () {
     			t5 = space();
     			p1 = element("p");
     			p1.textContent = "Copyright @2021 ABE Services";
-    			add_location(div0, file, 9, 8, 234);
-    			attr_dev(div1, "class", "main");
-    			add_location(div1, file, 8, 4, 207);
+    			add_location(section, file, 9, 8, 234);
+    			attr_dev(div0, "class", "main");
+    			add_location(div0, file, 8, 4, 207);
     			attr_dev(a0, "href", "#/privacy");
-    			add_location(a0, file, 19, 26, 594);
+    			add_location(a0, file, 19, 26, 602);
     			attr_dev(a1, "href", "#/acknowledgements");
-    			add_location(a1, file, 19, 70, 638);
+    			add_location(a1, file, 19, 70, 646);
     			attr_dev(p0, "align", "center");
-    			add_location(p0, file, 19, 8, 576);
+    			add_location(p0, file, 19, 8, 584);
     			attr_dev(p1, "align", "center");
     			add_location(p1, file, 20, 8, 708);
-    			add_location(footer, file, 13, 4, 301);
-    			attr_dev(div2, "class", "f-container fixed-hf");
-    			add_location(div2, file, 6, 0, 154);
+    			add_location(footer, file, 13, 4, 309);
+    			attr_dev(div1, "class", "f-container fixed-hf");
+    			add_location(div1, file, 6, 0, 154);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
     		},
     		m: function mount(target, anchor) {
-    			insert_dev(target, div2, anchor);
-    			mount_component(navbar, div2, null);
-    			append_dev(div2, t0);
-    			append_dev(div2, div1);
+    			insert_dev(target, div1, anchor);
+    			mount_component(navbar, div1, null);
+    			append_dev(div1, t0);
     			append_dev(div1, div0);
-    			mount_component(router, div0, null);
-    			append_dev(div2, t1);
-    			append_dev(div2, footer);
+    			append_dev(div0, section);
+    			mount_component(router, section, null);
+    			append_dev(div1, t1);
+    			append_dev(div1, footer);
     			append_dev(footer, p0);
     			append_dev(p0, a0);
     			append_dev(p0, t3);
@@ -7143,7 +7043,7 @@ var app = (function () {
     			current = false;
     		},
     		d: function destroy(detaching) {
-    			if (detaching) detach_dev(div2);
+    			if (detaching) detach_dev(div1);
     			destroy_component(navbar);
     			destroy_component(router);
     		}

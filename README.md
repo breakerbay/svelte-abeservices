@@ -89,6 +89,15 @@ https://favicon.io/favicon-generator/
 if ('serviceWorker' in navigator && 'SyncManager' in window) {
 * [SyncManager](https://developer.mozilla.org/en-US/docs/Web/API/SyncManager)
 
+# Periodic Background Synch
+
+* [ServiceWorkerRegistration.periodicSync](https://developer.mozilla.org/en-US/docs/Web/API/ServiceWorkerRegistration/periodicSync)
+
+The periodicSync read-only property of the ServiceWorkerRegistration interface returns a reference to the PeriodicSyncManager interface, which allows for registering of tasks to run at specific intervals.
+
+* [Periodic Background Sync Explained](https://felixgerschau.com/periodic-background-sync-explained/)
+* [Richer offline experiences with the Periodic Background Sync API](https://web.dev/periodic-background-sync/)
+
 # Svelte Query
 * [Svelte Query](https://sveltequery.vercel.app/)
 * [svelte-query on github](https://github.com/SvelteStack/svelte-query)

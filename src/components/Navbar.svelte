@@ -38,7 +38,7 @@
 
     // Mobile menu click event handler
     const handleMobileIconClick = () => (showMobileMenu = !showMobileMenu);
-    
+
     // CLose mobile menu when menu item selected
     const closeMobileMenu = () => (showMobileMenu = false);
 
@@ -55,7 +55,7 @@
         const mediaListener = window.matchMedia("(max-width: 767px)");
 
         mediaListener.addListener(mediaQueryHandler);
-        
+
         let menuItems = document.querySelectorAll('.navbar-list li a');
 
         let i = 0;
@@ -71,6 +71,8 @@
         <div on:click={handleMobileIconClick} class={`mobile-icon${showMobileMenu ? ' active' : ''}`}>
             <div class="middle-line"></div>
         </div>
+	<div><img src="abelogo3.gif" alt="ABE Services Logo"></div>
+	<h3 class="logo">Construction Assurance Solutions (CAS)</h3>
         <ul class={`navbar-list${showMobileMenu ? ' mobile' : ''}`}>
             {#each navItems as item}
                 <li>
@@ -86,8 +88,9 @@
     nav {
         /*background-color: rgba(0, 0, 0, 0.8);*/
         background-color: #2780e3;
-	    font-family: Arial, Helvetica, sans-serif;
-        height: 45px;
+	font-family: Arial, Helvetica, sans-serif;
+        /*height: 45px;*/
+        height: 65px;
     }
 
     .inner {
@@ -199,8 +202,21 @@
             display: none;
         }
 
+        .logo {
+            width: 100%;
+            color: #fff;
+        }
+
+        img {
+            width: auto;
+            height: 60px;
+            object-fit: contain;
+            margin-right: 0.5rem;
+        }
+
         .navbar-list {
             display: flex;
+	        justify-content: flex-end;
             padding: 0;
         }
 

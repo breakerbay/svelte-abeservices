@@ -29,20 +29,15 @@
               href="http://brogo.net.au/checklist" target="_blank">TO
           SIGN UP ON-LINE FOR THE CDMS</a></em></strong></font></p>
           -->
+    <div align="center">
+        <blockquote>
+            <p>The CDMS will commence commercial operations later this year - Details will be in &quot;News&quot;</p>
+            <p>Meanwhile trial user licences are available for the iphone app.</p>
+            <p><strong>Please contact John and Mike for details, email <a href="mailto:abeservices@outlook.com">abeservices@outlook.com</a></strong>
+            </p>
+        </blockquote>
+    </div>
 </blockquote>
-<div align="center">
-    <blockquote>
-        <p>The CDMS will commence commercial operations later this year - Details will be in &quot;News&quot;</p>
-        <p>Meanwhile trial user licences are available for the iphone app.</p>
-        <p><strong>Please contact John and Mike for details, email <a href="mailto:abeservices@outlook.com">abeservices@outlook.com</a></strong>
-        </p>
-    </blockquote>
-</div>
-
-<footer>
-    <!--	<div>footer</div>-->
-</footer>
-
 
 <style>
 	h1 {
@@ -51,8 +46,8 @@
 		font-size: 4em;
 		font-weight: 100;
 	}
-	
+
 	 .feather {
 		 color: #ff3e00;
-	 }	
+	 }
 </style>
