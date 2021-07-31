@@ -6,7 +6,7 @@
     <title>ABE Services</title>
 </svelte:head>
 
-<blockquote>
+<div align="center">
     <p>ABE Services is the developer and provider of the: </p>
     <h1 align="center">CDMS</h1>
     <h2 align="center">Compliance Data Management System</h2>
@@ -37,17 +37,17 @@
             </p>
         </blockquote>
     </div>
-</blockquote>
+</div>
 
 <style>
-	h1 {
-		color: #ff3e00;
-		text-transform: uppercase;
-		font-size: 4em;
-		font-weight: 100;
-	}
+    h1 {
+        color: #ff3e00;
+        text-transform: uppercase;
+        font-size: 4em;
+        font-weight: 100;
+    }
 
-	 .feather {
-		 color: #ff3e00;
-	 }
+    .feather {
+        color: #ff3e00;
+    }
 </style>

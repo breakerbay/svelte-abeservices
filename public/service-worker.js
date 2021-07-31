@@ -1,8 +1,8 @@
 'use strict';
 
 // Update cache names any time any of the cached files change.
-const CACHE_STATIC_NAME = 'static-v2';
-const CACHE_DYNAMIC_NAME = 'dynamic-v2';
+const CACHE_STATIC_NAME = 'static-v5';
+const CACHE_DYNAMIC_NAME = 'dynamic-v5';
 
 // Add list of files to cache here.
 let STATIC_FILES = [
@@ -13,8 +13,8 @@ let STATIC_FILES = [
   '/abelogo.png',
   '/offline.html',
   '/global.css',
-  '/build/bundle.css',
-  '/build/bundle.js',
+  // '/build/bundle.css',
+  // '/build/bundle.js',
   '/static/images/studio/20190531/20190531_144609.jpg',
   '/static/images/studio/20190531/20190531_144629.jpg',
   '/static/images/studio/20190531/20190531_144706.jpg',

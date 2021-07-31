@@ -7,7 +7,7 @@
 <div class="f-container fixed-hf">
     <Navbar/>
     <div class="main">
-        <section>
+        <section align="center">
             <Router {routes}/>
         </section>
     </div>
