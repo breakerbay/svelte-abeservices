@@ -1,8 +1,8 @@
 'use strict';
 
 // Update cache names any time any of the cached files change.
-const CACHE_STATIC_NAME = 'static-v15';
-const CACHE_DYNAMIC_NAME = 'dynamic-v15';
+const CACHE_STATIC_NAME = 'static-v16';
+const CACHE_DYNAMIC_NAME = 'dynamic-v16';
 
 // Add list of files to cache here.
 let STATIC_FILES = [
@@ -24,6 +24,7 @@ let STATIC_FILES = [
   '/images/icons/abe-maskable_icon_x192.png',
   '/images/icons/abe-maskable_icon_x256.png',
   '/images/icons/abe-maskable_icon_x512.png',
+  '/images/how-it-works.jpg',
 ];
 
 self.addEventListener('install', (evt) => {
