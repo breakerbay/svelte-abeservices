@@ -1,3 +1,5 @@
+import CasHome from './cas/CasHome.svelte'
+
 import Home from './components/Home.svelte'
 
 import Clients from './cdms/body/Clients.svelte'
@@ -24,9 +26,11 @@ import NotFound from './components/NotFound.svelte'
 // Route dictionary
 export default {
     '/': Home,
+    '/cas': CasHome,
     '/clients': Clients,
     '/contractors': Contractors,
     '/how': HowItWorks,
+    '/how/*': HowItWorks,
     '/about': AboutUs,
     '/acknowledgements': Acknowledgements,
     '/charges': Charges,
