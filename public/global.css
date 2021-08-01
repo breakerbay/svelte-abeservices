@@ -10,10 +10,13 @@
     --section-min-width: 20rem;
 }
 
+html {overflow: auto;}
+
 html, body {
     position: relative;
     width: 100%;
     height: 100%;
+    /*height: auto;*/
 }
 
 body {
@@ -70,14 +73,17 @@ footer {
     /*-ms-flex: 1 1 auto; */
     /*needs both shrink and grow*/
     display: flex;
-    align-items: center;
+    align-items: flex-start;
+    /*align-items: center;*/
     justify-content: center;
 }
 
 section {
     display: flex;
-    align-items: center;
-    justify-content: center;
+    /*align-items: flex-start;*/
+    /*align-items: center;*/
+    /*justify-content: center;*/
+    /*justify-content: center;*/
     max-width: var(--section-max-width);
     min-width: var(--section-min-width);
     margin-top: 65px;

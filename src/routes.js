@@ -27,6 +27,7 @@ export default {
     '/clients': Clients,
     '/contractors': Contractors,
     '/how': HowItWorks,
+    '/how/*': HowItWorks,
     '/about': AboutUs,
     '/acknowledgements': Acknowledgements,
     '/charges': Charges,
