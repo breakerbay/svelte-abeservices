@@ -88,9 +88,8 @@
     nav {
         /*background-color: rgba(0, 0, 0, 0.8);*/
         background-color: #2780e3;
-	font-family: Arial, Helvetica, sans-serif;
-        /*height: 45px;*/
-        height: 65px;
+	    font-family: Arial, Helvetica, sans-serif;
+        height: var(--navbar-height);
     }
 
     .inner {
@@ -183,7 +182,8 @@
         color: #fff;
         text-decoration: none;
         display: flex;
-        height: 45px;
+        /*height: 45px;*/
+        height: var(--navbar-height);
         align-items: center;
         padding: 0 10px;
         font-size: 13px;

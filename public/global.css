@@ -8,6 +8,7 @@
     --header-color: #ff3e00;
     --section-max-width: 56rem;
     --section-min-width: 20rem;
+    --navbar-height: 65px;
 }
 
 html {overflow: auto;}
@@ -148,7 +149,7 @@ button:focus {
 nav {
     background-color: #2780e3;
     font-family: Arial, Helvetica, sans-serif;
-    height: 45px;
+    height: var(--navbar-height);
 }
 
 .inner {
