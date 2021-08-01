@@ -6,8 +6,8 @@
     --dark-green: #0e4f1f;
     --highlight-color: #ff1b68;
     --header-color: #ff3e00;
-    --checker-max-width: 56rem;
-    --checker-min-width: 20rem;
+    --section-max-width: 56rem;
+    --section-min-width: 20rem;
 }
 
 html, body {
@@ -63,6 +63,7 @@ footer {
 
 .main {
     background-color: #eee;
+    height: 100%;
 
     /*ie10*/
     /*flex: 1;*/
@@ -74,12 +75,11 @@ footer {
 }
 
 section {
-    /*width: 100%;*/
     display: flex;
     align-items: center;
     justify-content: center;
-    max-width: var(--checker-max-width);
-    min-width: var(--checker-min-width);
+    max-width: var(--section-max-width);
+    min-width: var(--section-min-width);
     margin-top: 65px;
 }
 
