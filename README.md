@@ -102,3 +102,21 @@ The periodicSync read-only property of the ServiceWorkerRegistration interface r
 * [Svelte Query](https://sveltequery.vercel.app/)
 * [svelte-query on github](https://github.com/SvelteStack/svelte-query)
 
+# Fonts
+
+https://www.fontspace.com/phoenix-font-f4186  - phoenix - REGULAR STYLE 100% Free
+https://www.fontspace.com/gemfonts
+
+https://www.behance.net/gallery/23357757/Timber-Free-Font
+
+
+https://www.fonts.com/font/thinkdust/stripes?QueryFontType=Web&src=GoogleWebFonts
+https://www.fonts.com/font/thinkdust/stripes
+
+
+https://www.oberlo.com/blog/google-fonts
+Cabin Sketch
+
+
+https://www.myfonts.com/tags/double+line/
+
