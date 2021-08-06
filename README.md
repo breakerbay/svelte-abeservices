@@ -109,6 +109,7 @@ https://www.fontspace.com/gemfonts
 
 https://www.behance.net/gallery/23357757/Timber-Free-Font
 
+https://www.behance.net/gallery/24597223/STOKED-(free-font)
 
 https://www.fonts.com/font/thinkdust/stripes?QueryFontType=Web&src=GoogleWebFonts
 https://www.fonts.com/font/thinkdust/stripes
@@ -119,4 +120,6 @@ Cabin Sketch
 
 
 https://www.myfonts.com/tags/double+line/
+
+https://fonts.google.com/
 
