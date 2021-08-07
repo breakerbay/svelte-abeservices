@@ -102,3 +102,63 @@ The periodicSync read-only property of the ServiceWorkerRegistration interface r
 * [Svelte Query](https://sveltequery.vercel.app/)
 * [svelte-query on github](https://github.com/SvelteStack/svelte-query)
 
+# Fonts
+
+https://www.fontspace.com/phoenix-font-f4186  - phoenix - REGULAR STYLE 100% Free
+https://www.fontspace.com/gemfonts
+
+https://www.behance.net/gallery/23357757/Timber-Free-Font
+
+https://www.behance.net/gallery/24597223/STOKED-(free-font)
+
+https://www.fonts.com/font/thinkdust/stripes?QueryFontType=Web&src=GoogleWebFonts
+https://www.fonts.com/font/thinkdust/stripes
+
+
+https://www.oberlo.com/blog/google-fonts
+Cabin Sketch
+
+https://bashooka.com/freebie/free-double-multi-line-fonts/
+
+https://www.1001fonts.com/
+
+https://designshack.net/articles/css/10-great-google-font-combinations-you-can-copy/
+Lobster & Cabin
+The HTML
+<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Cabin" rel="stylesheet">
+The CSS
+
+h1 {
+font-family: 'Lobster', Georgia, Times, serif;
+font-size: 70px;
+line-height: 100px;
+}
+
+p {
+font-family: 'Cabin', Helvetica, Arial, sans-serif;
+font-size: 15px;
+line-height: 25px;
+}
+
+The HTML
+<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Goudy+Bookletter+1911" rel="stylesheet">
+The CSS
+h1 {
+font-family: 'Raleway', Helvetica, Arial, sans-serif;
+font-size: 50px;
+line-height: 70px;
+}
+
+p {
+font-family: 'Goudy Bookletter 1911', Georgia, Times, serif;
+font-size: 15px;
+line-height: 25px;
+}
+
+
+https://www.myfonts.com/tags/double+line/
+
+https://fonts.google.com/
+
