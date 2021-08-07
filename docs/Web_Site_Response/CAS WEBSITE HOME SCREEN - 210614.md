@@ -2,35 +2,25 @@ Construction Assurance Solutions (CAS)
 
 How CAS can benefit Contractors
 
-How CAS can benefit Clients, Superintendents, and
-
-others engaging or monitoring constructors
+How CAS can benefit Clients, Superintendents, and others engaging or monitoring constructors
 
 How CAS works
 
 Sign up Now
 
-Quality means doing it right when
+Quality means doing it right when no one is looking. Henry Ford
 
-no one is looking. Henry Ford
+Uncontrolled variation is the enemy of quality. Deming
 
-Uncontrolled variation is the enemy of quality. Demiing
-
-Quality is generally transparent when present,
-
-but easily recognized in its absence. Gillies
+Quality is generally transparent when present, but easily recognized in its absence. Gillies
 
 Quality is to give the customers what they want. Walton
 
-The bitterness of poor quality remains
-
-long after low pricing is forgotten.
+The bitterness of poor quality remains long after low pricing is forgotten.
 
 “It is not necessary to change. Survival is not mandatory.” Deming
 
-“Be a yardstick of quality. Some people aren’t used to
-
-an environment where excellence is expected.” Jobs
+“Be a yardstick of quality. Some people aren’t used to an environment where excellence is expected.” Jobs
 
 ABE
 
@@ -52,16 +42,10 @@ Policy About Us Terms and
 
 Conditions
 
-• Takes the tedium out of setting up
+• Takes the tedium out of setting up ITPs and checklists;
 
-ITPs and checklists;
+• Enables photos to be used to document critical points;
 
-• Enables photos to be used to
-
-document critical points;
-
-• Provides impressive reports to
-
-demonstrate compliance;
+• Provides impressive reports to demonstrate compliance;
 
 • Facilitates handling nonconformance
