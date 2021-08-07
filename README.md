@@ -122,6 +122,10 @@ https://bashooka.com/freebie/free-double-multi-line-fonts/
 
 https://www.1001fonts.com/
 
+https://www.fontspace.com/
+
+https://www.abstractfonts.com/
+
 https://designshack.net/articles/css/10-great-google-font-combinations-you-can-copy/
 Lobster & Cabin
 The HTML
