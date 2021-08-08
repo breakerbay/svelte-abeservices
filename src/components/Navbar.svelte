@@ -10,6 +10,7 @@
     const navItems = [
         { label: "Home", href: "#" },
         { label: "CAS", href: "#/cas" },
+        { label: "CAS2", href: "#/cas2" },
         { label: "Service", href: "#/service" },
         { label: "Contact Us", href: "#/contact" },
         // { label: "Links", href: "#/links" },
