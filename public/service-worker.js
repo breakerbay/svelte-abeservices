@@ -1,8 +1,8 @@
 'use strict';
 
 // Update cache names any time any of the cached files change.
-const CACHE_STATIC_NAME = 'static-v17';
-const CACHE_DYNAMIC_NAME = 'dynamic-v17';
+const CACHE_STATIC_NAME = 'static-v18';
+const CACHE_DYNAMIC_NAME = 'dynamic-v18';
 
 // Add list of files to cache here.
 let STATIC_FILES = [
