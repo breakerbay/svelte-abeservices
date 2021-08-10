@@ -2,7 +2,7 @@
 </script>
 
 <svelte:head>
-    <title>ABE Services - CAS</title>
+    <title>ABE Services - CAS 2</title>
 </svelte:head>
 
 <div class="home-page-grid">
@@ -46,9 +46,11 @@
         text-transform: uppercase;
     }
 
+/*
     main {
         display: block;
     }
+*/
 
     .home-page-grid {
         display: grid;
