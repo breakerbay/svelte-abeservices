@@ -1,5 +1,6 @@
 import CasHome from './cas/CasHome.svelte'
 import CasHome2 from './cas/CasHome2.svelte'
+import CasHome3 from './cas/CasHome3.svelte'
 
 import Home from './components/Home.svelte'
 
@@ -29,6 +30,7 @@ export default {
     '/': Home,
     '/cas': CasHome,
     '/cas2': CasHome2,
+    '/cas3': CasHome3,
     '/clients': Clients,
     '/contractors': Contractors,
     '/how': HowItWorks,
