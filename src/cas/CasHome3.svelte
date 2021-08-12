@@ -2,7 +2,7 @@
 </script>
 
 <svelte:head>
-    <title>ABE Services - CAS 2</title>
+    <title>ABE Services - CAS 3</title>
 </svelte:head>
 
 <div class="home-page-grid">
@@ -20,7 +20,7 @@
                 expected." Jobs
         </div>
     </div>
-    <div class="card">
+    <aside class="card">
         <h4>CAS:</h4>
         <ul>
             <li>Takes the tedium out of setting up ITPs and checklists;</li>
@@ -36,7 +36,7 @@
             <li>How CAS can benefit Clients, Superintendents, and others engaging or monitoring constructors</li>
         </ul>
         <h4>Sign up Now</h4>
-    </div>
+    </aside>
 </div>
 
 <style>

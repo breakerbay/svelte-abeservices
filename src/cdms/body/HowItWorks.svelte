@@ -37,7 +37,7 @@
 
     <blockquote>
         <h4>The CAS Concept</h4>
-        <h3 align="center"><img src="images/how-it-works.jpg" width="720" height="540"></h3>
+        <h3 align="center"><img src="images/how-it-works.jpg" width="720" height="540" alt="How CAS works"/></h3>
         <p>The diagram identifies the three major elements of the CAS:</p>
         <p>1. The preparation and authorisation of Inspection and Test Plans (ITP's) on a remote database,<br>
             2. The collection of data &#8216;in the field&#8217; by:</p>

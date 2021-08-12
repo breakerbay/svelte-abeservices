@@ -11,6 +11,7 @@
         { label: "Home", href: "#" },
         { label: "CAS", href: "#/cas" },
         { label: "CAS2", href: "#/cas2" },
+        { label: "CAS3", href: "#/cas3" },
         { label: "Service", href: "#/service" },
         { label: "Contact Us", href: "#/contact" },
         // { label: "Links", href: "#/links" },
